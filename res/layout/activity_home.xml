@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.cityguide.Home"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="Hotel"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:text="Cinema"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:layout_alignTop="@+id/imageButton5"
+        android:src="@drawable/ho" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton6"
+        android:src="@drawable/cinema1" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hospital" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/mall" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/imageButton10"
+        android:text="Tourist Place"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TextView03"
+        android:layout_centerHorizontal="true"
+        android:text="Hospitals"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/textView4"
+        android:text="Schools"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_alignParentBottom="true"
+        android:text="Mall"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/TextView01"
+        android:text="Bank"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignTop="@+id/imageButton9"
+        android:src="@drawable/bank" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton8"
+       android:background="@android:color/white"
+        android:src="@drawable/touriss" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/imageButton9"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/restaurant" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginLeft="14dp"
+        android:text="Restaurant"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/school" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton7"
+        android:src="@drawable/doctorss" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginBottom="22dp"
+        android:text="Doctors"
+        android:textColor="@android:color/white" />
+
+ <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true" >
+
+     <ImageButton
+         android:id="@+id/admin"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:layout_alignParentTop="true"
+         android:layout_weight="0.00"
+         android:paddingLeft="0dp"
+         android:src="@drawable/admin" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="34dp"
+         android:layout_toRightOf="@+id/admin"
+         android:ems="10"
+         android:hint="@string/prompt_search"
+         android:textColor="@android:color/white" >
+
+         <requestFocus />
+     </EditText>
+
+     <ImageButton
+         android:id="@+id/searchitem"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="22dp"
+         android:src="@drawable/abc_ic_search"
+         android:background="@android:color/black" />
+
+  </RelativeLayout>
+
+</RelativeLayout>

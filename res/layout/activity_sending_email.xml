@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cityguide.SendingEmail"
+    tools:ignore="MergeRootFrame" 
+    android:background="@android:color/black">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Send Email" 
+                    android:background="@android:color/black"
+                     android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+
+                <EditText
+                    android:id="@+id/etMailBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_above="@+id/button1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="39dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                     android:hint="@string/prompt_mail"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Compose Email "
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp" />
+
+                <EditText
+                    android:id="@+id/sub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="56dp"
+                    android:ems="10"
+                     android:hint="@string/prompt_sub"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/button1"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="28dp"
+                    android:text="Subject"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp" />
+
+</RelativeLayout>
+

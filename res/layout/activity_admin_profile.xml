@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cityguide.AdminProfile"
+    tools:ignore="MergeRootFrame" 
+     android:background="@android:color/black">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black" >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="Sign Out"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignParentBottom="true"
+        android:text="View All Places"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/TextView01"
+        android:layout_toRightOf="@+id/textView2"
+        android:src="@drawable/view" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:text="Place Registration"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/register"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/black"
+        android:src="@drawable/register" />
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/update"
+        android:background="@android:color/black"
+        android:src="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:text="Place Delete"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignParentLeft="true"
+        android:text="Place Update"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/update"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/TextView03"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/black"
+        android:src="@drawable/update" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/update"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:text="Change Password"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/pass"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/register"
+        android:background="@android:color/black"
+        android:src="@drawable/password" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="Admin Home"
+        android:textAlignment="gravity"
+        android:textColor="#ff0000"
+        android:textSize="40dp" />
+
+</RelativeLayout>

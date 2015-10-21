@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cityguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cityguide.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cityguide.CategoryActivity"
+            android:label="@string/title_activity_category" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Malls"
+            android:label="@string/title_activity_malls" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Schools"
+            android:label="@string/title_activity_schools" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Doctors"
+            android:label="@string/title_activity_doctors" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Hospitals"
+            android:label="@string/title_activity_hospitals" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Hotels"
+            android:label="@string/title_activity_hotels" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Restaurants"
+            android:label="@string/title_activity_restaurants" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Cinemas"
+            android:label="@string/title_activity_cinemas" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Banks"
+            android:label="@string/title_activity_banks" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.TouristPlaces"
+            android:label="@string/title_activity_tourist_places" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Places"
+            android:label="@string/title_activity_places" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Popup_Menu"
+            android:label="@string/title_activity_popup__menu" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.AdminLogin"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.AdminProfile"
+            android:label="@string/title_activity_admin_profile" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.ChangePassword"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Login"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.PlaceRegistration"
+            android:label="@string/title_activity_place_registration" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.DemoFragment"
+            android:label="@string/title_activity_demo_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Update"
+            android:label="@string/title_activity_update" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.Delete"
+            android:label="@string/title_activity_delete" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.PropertyListViewActivity"
+            android:label="@string/title_activity_view" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.PropertyCustomerAdapter"
+            android:label="@string/title_activity_property_customer_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.PropertyDetailActivity"
+            android:label="@string/title_activity_property_detail" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.CategoryList"
+            android:label="@string/title_activity_category_list" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.CategoryView"
+            android:label="@string/title_activity_category_view" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.SendingMssg"
+            android:label="@string/title_activity_sending_mssg" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.SendingEmail"
+            android:label="@string/title_activity_sending_email" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.WebUrl"
+            android:label="@string/title_activity_web_url" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.UpdateList"
+            android:label="@string/title_activity_update_list" >
+        </activity>
+        <activity
+            android:name="com.example.cityguide.SearchItem"
+            android:label="@string/title_activity_search_item" >
+        </activity>
+    </application>
+
+</manifest>

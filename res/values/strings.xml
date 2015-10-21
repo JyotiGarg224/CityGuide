@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">City Guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_malls">Malls</string>
+    <string name="title_activity_schools">Schools</string>
+    <string name="title_activity_doctors">Doctors</string>
+    <string name="title_activity_hospitals">Hospitals</string>
+    <string name="title_activity_hotels">Hotels</string>
+    <string name="title_activity_restaurants">Restaurants</string>
+    <string name="title_activity_cinemas">Cinemas</string>
+    <string name="title_activity_banks">Banks</string>
+    <string name="title_activity_tourist_places">TouristPlaces</string>
+    <string name="title_activity_places">Places</string>
+    <string name="title_activity_popup__menu">Popup_Menu</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="title_activity_admin_profile">AdminProfile</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_place_registration">PlaceRegistration</string>
+    <string name="title_activity_demo_fragment">DemoFragment</string>
+    <string name="title_activity_update">Update</string>
+    <string name="title_activity_delete">Delete</string>
+    <string name="title_activity_view">View</string>
+    <string name="title_activity_property_customer_adapter">PropertyCustomerAdapter</string>
+    <string name="title_activity_property_detail">PropertyDetailActivity</string>
+    <string name="title_activity_category_list">CategoryList</string>
+    <string name="title_activity_category_view">CategoryView</string>
+    <string name="title_activity_sending_mssg">SendingMssg</string>
+    <string name="title_activity_sending_email">SendingEmail</string>
+    <string name="title_activity_web_url">WebUrl</string>
+    <string name="title_activity_update_list">UpdateList</string>
+    <string name="title_activity_search_item">SearchItem</string>
+
+</resources>
